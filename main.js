@@ -7,8 +7,8 @@ let email;
 let password;
 
 function mybtn(){
-    event.preventDefault();
-    
+    event.preventDefault(); // By adding event.preventDefault();, you prevent the form from being submitted, and the form will be not cleared
+
     firstName = document.getElementById('firsttxt').value
     lastName = document.getElementById('lasttxt').value
     email = document.getElementById('emailtxt').value
@@ -27,8 +27,16 @@ function mybtn(){
     document.getElementById('email-display').textContent ="Email Address cannot be empty";
     document.getElementById('password-display').textContent ="Password cannot be empty";
 
+
     
 }else{
-    console.log('error');
+    firstName = document.getElementById('firsttxt').value = "";
+    lastName = document.getElementById('lasttxt').value = "";
+    email = document.getElementById('emailtxt').value = "";
+    password = document.getElementById('passwordtxt').value = "";
+
+     alert('The form was Submitted Successfully')
+
   }
 }
+
