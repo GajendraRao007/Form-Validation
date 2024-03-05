@@ -61,19 +61,23 @@ input{
 #first-name-display{
     width: 300px;
     height: 20px;
+    color: red;
 }
 
 #last-name-display{
     width: 300px;
     height: 20px;
+    color: red;
 }
 
 #email-display{
     width: 300px;
     height: 20px;
+    color: red;
 }
 
 #password-display{
     width: 300px;
     height: 20px;
+    color: red;
 }
