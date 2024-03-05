@@ -7,6 +7,7 @@ let email;
 let password;
 
 function mybtn(){
+    event.preventDefault();
     
     firstName = document.getElementById('firsttxt').value
     lastName = document.getElementById('lasttxt').value
